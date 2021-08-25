@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntrarComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    CadastrarComponent
   ],
   imports: [
     BrowserModule,
