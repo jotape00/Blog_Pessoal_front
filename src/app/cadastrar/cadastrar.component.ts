@@ -6,7 +6,7 @@ import { AuthService } from '../service/auth.service';
 @Component({
   selector: 'app-cadastrar',
   templateUrl: './cadastrar.component.html',
-  styleUrls: ['./cadastrar.component.css']
+  styleUrls: ['./cadastrar.component.css']  
 })
 export class CadastrarComponent implements OnInit {
 
