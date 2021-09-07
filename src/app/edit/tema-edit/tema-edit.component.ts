@@ -13,16 +13,15 @@ export class TemaEditComponent implements OnInit {
 
   tema: Tema = new Tema();
 
-
   constructor(
     private temaService: TemaService,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
   ) { }
 
   ngOnInit(){
     if(environment.token == ""){
-      this.router.navigate(["/entrar"])
+      //this.router.navigate(["/entrar"])
     }
 
     let id = this.route.snapshot.params["id"]
